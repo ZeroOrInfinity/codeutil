@@ -1,0 +1,7 @@
+		      	<tr>
+                             
+<td>[columnComment]</td>
+
+                             <td><input  class="form-control" ng-model="entity.[column2]" placeholder="[columnComment]" ></td>
+
+                        </tr>		

@@ -1,0 +1,21 @@
+//[comment]管理
+appService.factory("[table]Service",function($http){
+	
+	return {
+		list:function(){
+			return $http.get("../[table]/list");			
+		},
+		listPage:function(page,size){
+			return $http.get("../[table]/listPage?page="+page+"&size="+size);			
+		},
+		dele:function(id){
+			return $http.get("../[table]/delete?id="+id);
+		},
+		save:function(data){
+			return $http.post("../[table]/save",$.param(data),config);			
+		},
+		get:function(id){
+			return $http.get('../[table]/get?id='+id);		
+		}
+	}
+});

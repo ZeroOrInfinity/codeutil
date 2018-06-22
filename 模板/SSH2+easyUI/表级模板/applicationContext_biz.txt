@@ -1,0 +1,4 @@
+	<!-- [comment] -->
+	<bean id="[table]Biz" class="[package].biz.impl.[Table]Biz">
+		<property name="[table]Dao" ref="[table]Dao"></property>
+	</bean>

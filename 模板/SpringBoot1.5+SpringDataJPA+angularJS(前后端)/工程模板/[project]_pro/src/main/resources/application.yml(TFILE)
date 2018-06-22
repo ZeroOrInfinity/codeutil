@@ -1,0 +1,17 @@
+server: 
+  port: 80
+spring: 
+  application:  
+    name: [project] #指定服务名
+  datasource:  
+    driverClassName: [driverName]
+    url: [url]
+    username: [dbuser]
+    password: [dbpassword]
+  jpa: 
+    database: MySQL
+    show-sql: true
+    generate-ddl: true
+    hibernate: 
+      ddl-auto: update
+      naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy

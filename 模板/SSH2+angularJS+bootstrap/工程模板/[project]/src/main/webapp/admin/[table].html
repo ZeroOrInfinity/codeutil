@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>[comment]管理</title>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap-button.css">
+<script src="../jquery/jquery-1.11.3.js"></script>		
+<script src="../bootstrap/js/bootstrap.min.js"></script>		
+<script src="../angularjs/angular.min.js"></script>
+<!-- 分页组件开始 -->
+<script src="../angularjs/pagination.js"></script>
+<link rel="stylesheet" href="../angularjs/pagination.css">
+<!-- 分页组件结束 -->
+<script src="../js/main.js"></script>
+<script src="../js/service/[table].js"></script>
+<script src="../js/controller/[table].js"></script>
+</head>
+<body>
+<div ng-app="appController" ng-controller="[table]">
+<a href="#" data-toggle="modal" data-target="#editWindow" ng-click='clear()'>增加</a>
+<table class="table table-bordered table-striped">
+	<tr>
+<列表标题.txt>
+		<td>操作</td>	
+	</tr>
+	<tr ng-repeat="info in listdata">
+<列表内容.txt>	
+		<td>
+			<a href="#" ng-click="get(info.[key])" 
+				data-toggle="modal" data-target="#editWindow" >修改</a>
+			<a href="#" ng-click="dele(info.[key])">删除</a>
+		</td>	
+	</tr>
+</table>
+<!-- 分页 -->
+<tm-pagination conf="paginationConf"></tm-pagination>
+
+<!-- 弹出编辑窗口开始 -->
+<div class="modal fade" id="editWindow" tabindex="-1" role="dialog" 
+   aria-labelledby="myModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+         	<b>[comment]编辑</b>
+         </div>
+         <div class="modal-body">
+<页面编辑表单.key.txt>
+				<table class="table table-bordered table-striped">
+<页面编辑表单.nokey.txt>		
+				</table>		
+			
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click="save()">保存</button>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- 弹出编辑窗口结束 -->
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+	<!-- [comment] -->
+	<bean id="[table]Dao" class="[package].dao.impl.[Table]Dao">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>

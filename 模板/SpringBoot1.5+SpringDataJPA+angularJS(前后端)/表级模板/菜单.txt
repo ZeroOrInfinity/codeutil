@@ -1,0 +1,4 @@
+				            <li id="admin-[table2]">
+<a href="[table2].html" target="iframe"><i class="fa fa-circle-o"></i>[comment]
+</a>
+</li>

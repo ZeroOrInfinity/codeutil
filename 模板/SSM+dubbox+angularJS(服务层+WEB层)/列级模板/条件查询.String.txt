@@ -1,0 +1,3 @@
+			if([table2].get[Column2]()!=null && [table2].get[Column2]().length()>0){
+				criteria.and[Column2]Like("%"+[table2].get[Column2]()+"%");
+			}

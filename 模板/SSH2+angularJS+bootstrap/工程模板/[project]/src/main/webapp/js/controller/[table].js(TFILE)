@@ -1,0 +1,80 @@
+//[comment]管理
+appController.controller('[table]',function($scope,[table]Service){
+	//查询列表
+	$scope.list=function(){
+		[table]Service.list().success(
+			function(response){
+				$scope.listdata= response;				
+			}
+		);		
+	};
+	
+	//分页控件 
+ 	$scope.paginationConf = {
+         currentPage: 1,
+         totalItems: 10,
+         itemsPerPage: 10,
+         perPageOptions: [10, 20, 30, 40, 50],
+         onChange: function(){
+        	 $scope.listPage(
+        		$scope.paginationConf.currentPage,$scope.paginationConf.itemsPerPage);
+     	 }
+    };
+ 	
+	//分页查询
+	$scope.listPage=function(page,size){
+		[table]Service.listPage(page,size).success(
+			function(response){
+				$scope.listdata=response.content;
+				$scope.paginationConf.totalItems=
+					response.totalPages*$scope.paginationConf.itemsPerPage;
+			}
+		);		
+	}	
+
+	$scope.listPage(1,$scope.paginationConf.itemsPerPage);//自动调用该方法 
+	
+	
+	//删除
+	$scope.dele=function(id){		
+		[table]Service.dele(id).success(
+			function(response){
+				if(response.success){//删除成功
+					$scope.listPage(1,$scope.paginationConf.itemsPerPage);//自动调用该方法
+				}else{
+					alert("删除失败！");
+				}
+			}
+		);	
+	}
+	
+	//保存 
+	$scope.save=function(){		
+		var data={};
+		for(var k in $scope.entity){
+			data['[table].'+k]=$scope.entity[k];			
+		}		
+		[table]Service.save(data).success(
+			function(response){
+				if(response.success){
+					$scope.listPage(1,$scope.paginationConf.itemsPerPage);//自动调用该方法
+				}else{
+					alert("保存失败");
+				}				
+			}		
+		);		
+	}
+	//读取实体 
+	$scope.get=function(id){
+		[table]Service.get(id).success(
+			function(response){
+				$scope.entity=response;			
+			}			
+		);
+	}
+	
+	//清空数据
+	$scope.clear=function(){
+		$scope.entity={};
+	}
+});

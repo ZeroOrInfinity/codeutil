@@ -1,0 +1,4 @@
+			if([table]1.get[Column]()!=null &&  [table]1.get[Column]().trim().length()>0)
+			{
+				dc.add(Restrictions.like("[column]", [table]1.get[Column](), MatchMode.ANYWHERE));			
+			}

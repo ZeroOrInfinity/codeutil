@@ -1,0 +1,6 @@
+
+#oracle
+jdbc.url = [url]
+jdbc.driver= [driverName]
+jdbc.user = [dbuser]
+jdbc.password = [dbpassword]

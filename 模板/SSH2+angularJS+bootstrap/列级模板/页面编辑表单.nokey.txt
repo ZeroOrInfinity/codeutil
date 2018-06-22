@@ -1,0 +1,5 @@
+			<tr>
+				<td>[columnComment]</td><td><input class="form-control" ng-model="entity.[column]"></td>
+			</tr>
+
+

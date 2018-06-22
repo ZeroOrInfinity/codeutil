@@ -1,0 +1,4 @@
+                // [columnComment]
+                if (searchMap.get("[column]")!=null && !"".equals(searchMap.get("[column]"))) {
+                	predicateList.add(cb.like(root.get("[column]").as(String.class), "%"+(String)searchMap.get("[column]")+"%"));
+                }
