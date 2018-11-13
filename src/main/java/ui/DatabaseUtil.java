@@ -313,7 +313,7 @@ public class DatabaseUtil extends javax.swing.JFrame {
 				  public void run(){
 					  try{
 						//获取当前文件夹下的模板目录下的所有文件夹
-							String basePath = new File("").getAbsolutePath() + "\\db";
+							String basePath = new File("").getAbsolutePath() + File.separatorChar + "db";
 
 							xml.DatabaseXml.writeDatabaseXml(util,propertyMap, basePath);
 					  }catch (Exception e) {

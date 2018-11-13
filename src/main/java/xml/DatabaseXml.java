@@ -107,7 +107,7 @@ public class DatabaseXml {
 		List<Table> list=new ArrayList();
 		try {
 			SAXReader reader = new SAXReader();
-			Document doc = reader.read(xmlPath+"\\db.xml");
+			Document doc = reader.read(xmlPath+ File.separatorChar + "db.xml");
 					
 			Element dbe= doc.getRootElement();
 			List<Element> elist= dbe.elements();
@@ -161,7 +161,7 @@ public class DatabaseXml {
 		Map<String,String> map=new HashMap<String, String>();
 		try {
 			SAXReader reader = new SAXReader();
-			Document doc = reader.read(xmlPath+"\\db.xml");
+			Document doc = reader.read(xmlPath+ File.separatorChar +"db.xml");
 					
 			Element dbe= doc.getRootElement();
 			List<Element> elist= dbe.elements();
@@ -193,7 +193,7 @@ public class DatabaseXml {
             
             XMLWriter writer = null;//
             
-            File file = new File(outPath+"/"+xmlFileName);  
+            File file = new File(outPath + File.separatorChar +xmlFileName);
             
     		if(!file.getParentFile().exists())
     		{

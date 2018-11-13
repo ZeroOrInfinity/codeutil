@@ -388,7 +388,7 @@ public class CodeUtil extends javax.swing.JFrame {
 		setLocationRelativeTo(null);
 
 		//获取当前文件夹下的模板目录下的所有文件夹
-		File directory = new File(new File("").getAbsolutePath() + "\\模板");//设定为当前文件夹
+		File directory = new File(new File("").getAbsolutePath() + File.separatorChar + "模板");//设定为当前文件夹
 		File[] listFiles = directory.listFiles();
 		if (listFiles != null) {
 			for (File f : listFiles) {
@@ -397,7 +397,7 @@ public class CodeUtil extends javax.swing.JFrame {
 				}
 			}
 		}
-		this.jTextField4.setText(new File("").getAbsolutePath() + "\\db");
+		this.jTextField4.setText(new File("").getAbsolutePath() + File.separatorChar + "db");
 
 		//读取变量
 		//Map<String, String> pathMap = xml.XmlUtil.read("pathMap.xml");
@@ -441,13 +441,13 @@ public class CodeUtil extends javax.swing.JFrame {
 					//路径map封装
 						Map<String, String> pathMap = new HashMap<String, String>();
 						//获取当前文件夹下的模板目录下的所有文件夹
-						String basePath = new File("").getAbsolutePath() + "\\模板\\"
+						String basePath = new File("").getAbsolutePath() + File.separatorChar + "模板" + File.separatorChar
 								+ jComboBox1.getSelectedItem();//设定为当前文件夹
 
 						pathMap.put("templetPath", basePath);
-						pathMap.put("projectTempletPath", basePath + "\\工程模板");
-						pathMap.put("tablleTempletPath", basePath + "\\表级模板");
-						pathMap.put("columnTempletPath", basePath + "\\列级模板");
+						pathMap.put("projectTempletPath", basePath + File.separatorChar +"工程模板");
+						pathMap.put("tablleTempletPath", basePath + File.separatorChar +"表级模板");
+						pathMap.put("columnTempletPath", basePath + File.separatorChar +"列级模板");
 						pathMap.put("xmlPath", jTextField4.getText());
 						pathMap.put("codePath",jTextField5.getText());
 

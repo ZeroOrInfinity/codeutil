@@ -1,12 +1,5 @@
 package xml;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -14,6 +7,13 @@ import org.dom4j.Element;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class XmlUtil {
 
@@ -43,7 +43,7 @@ public class XmlUtil {
 		SAXReader reader = new SAXReader();
 		//读取类型转换器
 		try {
-			Document doc = reader.read(directory.getAbsolutePath()+"\\"+filename);
+			Document doc = reader.read(directory.getAbsolutePath()+ File.separatorChar +filename);
 			Element rootElement = doc.getRootElement();
 			List<Element> elements = rootElement.elements();
 			for(Element element:elements)
@@ -67,7 +67,7 @@ public class XmlUtil {
 		SAXReader reader = new SAXReader();
 		//读取类型转换器
 		try {
-			Document doc = reader.read(directory.getAbsolutePath()+"\\"+filename);
+			Document doc = reader.read(directory.getAbsolutePath()+ File.separatorChar +filename);
 			Element rootElement = doc.getRootElement();
 			List<Element> elements = rootElement.elements();
 			for(Element element:elements)
