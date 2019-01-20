@@ -13,10 +13,8 @@ import java.util.Properties;
 import entity.Column;
 import entity.Table;
 
-
-
 /**
- * 黑马程序员代码生成器  V2.4
+ * 传智架构师  V2.5
  * 
  * @author 传智播客研究院 刘皇叔
  *
@@ -101,7 +99,7 @@ public class Util {
  
 	/**
 	 * 获取表及字段信息
-	 * @param catalogName
+	 * @param
 	 * @return
 	 * @throws ClassNotFoundException 
 	 * @throws SQLException 

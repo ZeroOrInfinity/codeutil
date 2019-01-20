@@ -23,6 +23,9 @@ import entity.Column;
 import entity.Table;
 import templet.Utils;
 
+/**
+ * 数据库转XML类
+ */
 public class DatabaseXml {
 	
 	/**
@@ -57,9 +60,12 @@ public class DatabaseXml {
 		for(Table table : tableList) 
 		{	
 			int keycount=0;//主键数量
+
+			String keyType="";
 			for(Column column : table.getColumns()){				
 				if(column.getColumnKey().equals("PRI")){
 					keycount++;
+					keyType=column.getColumnType();
 				}				
 			}
 			if(keycount==1){//如果是只有一个主键
@@ -68,15 +74,17 @@ public class DatabaseXml {
 				tableElement.addAttribute("name", table.getName() );//表名称
 				tableElement.addAttribute("name2", Utils.getTableName2(table.getName()) );  //处理后的表名称（去掉前缀）
 				tableElement.addAttribute("comment",  Unicode.toUnicodeString(table.getComment()) );
-				tableElement.addAttribute("key", table.getKey() );	
-			
+				tableElement.addAttribute("key", table.getKey() );
+				tableElement.addAttribute("key2", Utils.getColumnName2( table.getKey())  );//转驼峰格式
+				tableElement.addAttribute("Key2", Utils.getClassName(Utils.getColumnName2( table.getKey()))    );//转驼峰格式，首字母大写
+
+				tableElement.addAttribute("keyType", keyType );//主键类型
 				for(Column column : table.getColumns()) 
-				{		
+				{
 					//System.out.println("读取字段："+column.getColumnName());				
 					Element columnElement=  tableElement.addElement("column");
 					columnElement.addAttribute("name", column.getColumnName());//字段名称
-					columnElement.addAttribute("name2", Utils.getColumnName2(column.getColumnName())  );//处理后的列名称
-					
+					columnElement.addAttribute("name2", Utils.getColumnName2(column.getColumnName())  );////转驼峰格式
 					columnElement.addAttribute("type", column.getColumnType());//类型
 					columnElement.addAttribute("dbtype", column.getColumnDbType());
 					columnElement.addAttribute("comment",  Unicode.toUnicodeString( column.getColumnComment()));	
@@ -99,7 +107,6 @@ public class DatabaseXml {
 	
 	/**
 	 * 返回表名称
-	 * @param dbName 库名
 	 * @return
 	 */
 	public static List<Table> readDatabaseXml(String xmlPath)
@@ -118,10 +125,11 @@ public class DatabaseXml {
 					Table table=new Table();
 					table.setName(e.attributeValue("name"));
 					table.setName2(e.attributeValue("name2"));
-					
+					table.setKeyType(e.attributeValue("keyType"));
 					table.setComment( Unicode.decodeUnicode(   e.attributeValue("comment")));
 					table.setKey(e.attributeValue("key"));
-					
+					table.setKey2(e.attributeValue("key2"));
+					table.setKey2Upper(e.attributeValue("Key2"));//大写主键名
 					List<Column> columns=new ArrayList();
 					List<Element> elist2=  e.elements(); //字段列表
 					
@@ -153,7 +161,6 @@ public class DatabaseXml {
 	
 	/**
 	 * 读取属性
-	 * @param dbName 库名
 	 * @return
 	 */
 	public static Map<String,String> readProperty(String xmlPath)
@@ -170,7 +177,8 @@ public class DatabaseXml {
 				if(e.getName().equals("property")){
 					map.put(e.attributeValue("name"), e.getText());				
 				}
-			}				
+			}
+
 		} catch (DocumentException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -201,7 +209,8 @@ public class DatabaseXml {
     		}            
 			writer = new XMLWriter(new FileWriter(file), format);
 			writer.write(doc);  
-		    writer.close();  
+		    writer.close();
+
 		    		    
 		} catch (IOException e) {
 						

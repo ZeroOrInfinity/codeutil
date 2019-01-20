@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root>
-  <map key="path_3" value="base"/>
-  <map key="package" value="cn.itcast.base"/>
-  <map key="path_2" value="itcast"/>
+  <map key="path_3" value="content"/>
+  <map key="package" value="com.leyou.content"/>
+  <map key="path_2" value="leyou"/>
   <map key="dbpassword" value="123456"/>
-  <map key="author" value="\u4f20\u667a\u5218\u5907"/>
-  <map key="projectComment" value="bank\u7cfb\u7edf"/>
-  <map key="project" value="base"/>
+  <map key="author" value="\u5218\u7687\u53d4"/>
+  <map key="projectComment" value="\u4e50\u4f18"/>
+  <map key="project" value="leyou"/>
   <map key="dbuser" value="root"/>
-  <map key="path_1" value="cn"/>
-  <map key="db" value="tensquare_base"/>
-  <map key="path_all" value="cn/itcast/base"/>
+  <map key="path_1" value="com"/>
+  <map key="db" value="leyoudb"/>
+  <map key="path_all" value="com/leyou/content"/>
 </root>

@@ -63,10 +63,9 @@ public class ClientTempletUtil {
 	
 	
 	 /**
-	  * 替换内容 把子内容加上
+	  * 替换列级模板
 	  * @param oldContent 原文本
 	  * @param map 子替换符号列表
-	  * @param columns 列集合
 	  * @return
 	  */
 	 public static String createContent(String oldContent,  Map<String,String> map ,Table table)
@@ -111,12 +110,37 @@ public class ClientTempletUtil {
 							b=false;//不是String
 						}						
 					}
-					
+
+					//只循环String 类型
+					if(ks.indexOf(".Integer")>=0)
+					{
+						if(!column.getColumnType().equals("Integer"))
+						{
+							b=false;//不是String
+						}
+					}
+
+					//只循环Long类型
+					if(ks.indexOf(".Long")>=0)
+					{
+						if(!column.getColumnType().equals("Long"))
+						{
+							b=false;//不是String
+						}
+					}
+
+					//只循环Date 类型
+					if(ks.indexOf(".Date")>=0)
+					{
+						if(!column.getColumnType().equals("java.util.Date"))
+						{
+							b=false;//不是String
+						}
+					}
 					//根据模板生成新内容					
 					if(b)
 					{
 						System.out.println("替换符号内容："+foreachContent);
-						
 						String newContent= foreachContent.replace("[column]", column.getColumnName());
 						newContent=newContent.replace("[Column]", Utils.getClassName(column.getColumnName()) );
 						
@@ -128,10 +152,8 @@ public class ClientTempletUtil {
 						newContent= newContent.replace("[columnComment]", column.getColumnComment());//备注
 						createContent.append(newContent);
 						System.out.println("替换后内容："+newContent);
-						
 					}
 				}
-				
 				oldContent=oldContent.replace(thf, createContent.toString());//替换主体内容
 			}
 		}
@@ -143,17 +165,25 @@ public class ClientTempletUtil {
 		
 		oldContent= oldContent.replace("[comment]", table.getComment());//备注
 		if(table.getKey()!=null){
-		oldContent= oldContent.replace("[key]", table.getKey());//备注
+			oldContent= oldContent.replace("[key]", table.getKey());// 主键
 		}
+		if(table.getKey2()!=null){
+			oldContent= oldContent.replace("[key2]", table.getKey2());//主键驼峰
+		}
+		if(table.getKeyType()!=null){
+			oldContent= oldContent.replace("[keyType]", table.getKeyType());//主键类型
+		}
+		 if(table.getKey2Upper()!=null){
+			 oldContent= oldContent.replace("[Key2]", table.getKey2Upper());//大写主键
+		 }
 		return oldContent;
 	 }
 		
 		
 	 /**
-	  * 替换内容 把子内容加上 (替换内容)
+	  * 替换表级模板
 	  * @param oldContent 原文本
 	  * @param map 子替换符号列表
-	  * @param columns 列集合
 	  * @return 
 	  */
 	 public static String createContentForTable(String oldContent,  Map<String,String> map ,List<Table> tables )
@@ -177,9 +207,18 @@ public class ClientTempletUtil {
 						
 						newContent=newContent.replace("[table2]", table.getName2() );
 						newContent=newContent.replace("[Table2]", Utils.getClassName(table.getName2()));
-						
+
 						if(table.getKey()!=null){
-							newContent=newContent.replace("[key]", table.getKey());
+							oldContent= oldContent.replace("[key]", table.getKey());//备注
+						}
+						if(table.getKey2()!=null){
+							oldContent= oldContent.replace("[key2]", table.getKey2());//备注
+						}
+						if(table.getKeyType()!=null){
+							oldContent= oldContent.replace("[keyType]", table.getKeyType());//备注
+						}
+						if(table.getKey2Upper()!=null){
+							oldContent= oldContent.replace("[Key2]", table.getKey2Upper());//大写主键
 						}
 						newContent= newContent.replace("[comment]", table.getComment());//备注
 						createContent.append(newContent);
@@ -192,7 +231,7 @@ public class ClientTempletUtil {
 		 
 		return oldContent;
 	 }
-	
+
 	 
 	 /**
 	  * 替换全局替换符

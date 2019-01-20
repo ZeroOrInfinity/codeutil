@@ -12,7 +12,34 @@ public class Table {
 	private String name2;//处理后的表名称
 	private String comment;//介绍
 	private String key;// 主键列
-	
+	private String key2;// 主键列（驼峰）
+	private String key2Upper;// 主键列（驼峰）
+	private String keyType;//主键类型
+
+	public String getKey2Upper() {
+		return key2Upper;
+	}
+
+	public void setKey2Upper(String key2Upper) {
+		this.key2Upper = key2Upper;
+	}
+
+	public String getKey2() {
+		return key2;
+	}
+
+	public void setKey2(String key2) {
+		this.key2 = key2;
+	}
+
+	public String getKeyType() {
+		return keyType;
+	}
+
+	public void setKeyType(String keyType) {
+		this.keyType = keyType;
+	}
+
 	public String getKey() {
 		return key;
 	}

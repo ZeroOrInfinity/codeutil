@@ -36,9 +36,7 @@ public class XmlUtil {
 	
 	public static  Map<String,String> read(String filename)
 	{
-		
 		File directory = new File("");//设定为当前文件夹
-		
 		Map<String,String> map=new HashMap<String, String>();
 		SAXReader reader = new SAXReader();
 		//读取类型转换器
@@ -49,9 +47,8 @@ public class XmlUtil {
 			for(Element element:elements)
 			{
 				map.put(element.attributeValue("key"), util.Unicode.decodeUnicode( element.attributeValue("value")));				
-			}			
+			}
 		} catch (DocumentException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
 		return map;
@@ -60,9 +57,7 @@ public class XmlUtil {
 	
 	public static  Map<String,String> readNu(String filename)
 	{
-		
 		File directory = new File("");//设定为当前文件夹
-		
 		Map<String,String> map=new HashMap<String, String>();
 		SAXReader reader = new SAXReader();
 		//读取类型转换器
@@ -72,10 +67,9 @@ public class XmlUtil {
 			List<Element> elements = rootElement.elements();
 			for(Element element:elements)
 			{
-				map.put(element.attributeValue("key"), element.attributeValue("value"));				
+				map.put(element.attributeValue("key"), element.attributeValue("value"));
 			}			
 		} catch (DocumentException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
 		return map;

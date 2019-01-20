@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
 import database.Util;
 
 /**
- * 黑马程序员代码生成器  V2.4
+ * 黑马架构师  V2.5
  *
  * @author 传智播客研究院 刘皇叔
  *
@@ -54,7 +54,7 @@ public class DatabaseUtil extends javax.swing.JFrame {
 		jLabel5 = new JLabel();
 
 		//setTitle("\u4f20\u667a\u5218\u5907\u4ee3\u7801\u751f\u6210\u56682.3");
-		setTitle("黑马程序员代码生成器2.4");
+		setTitle("黑马架构师 2.5 --> 让你体验什么叫开挂");
 		setBackground(new java.awt.Color(204, 255, 204));
 		addWindowListener(new java.awt.event.WindowAdapter() {
 			public void windowClosed(java.awt.event.WindowEvent evt) {

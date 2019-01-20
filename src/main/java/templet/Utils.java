@@ -35,7 +35,7 @@ public class Utils {
 	
 	
 	/**
-	 * 列名下划线处理
+	 * 驼峰处理
 	 * @param
 	 * @return
 	 */
