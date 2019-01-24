@@ -1,4 +1,4 @@
             // [columnComment]
             if(searchMap.get("[column2]")!=null && !"".equals(searchMap.get("[column2]"))){
-                criteria.andLike("[column]","%"+searchMap.get("[column2]")+"%");
+                criteria.andLike("[column2]","%"+searchMap.get("[column2]")+"%");
             }

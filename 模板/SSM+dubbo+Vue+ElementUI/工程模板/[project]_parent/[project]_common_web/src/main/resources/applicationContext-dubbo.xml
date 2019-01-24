@@ -12,7 +12,7 @@
 
 	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="${dubbo.application}" />
-	<dubbo:registry protocol="zookeeper" address="${dubbo.address}"/>
+	<dubbo:registry protocol="zookeeper" address="${zk.address}"/>
 	<dubbo:annotation package="[path_1].[path_2].controller" />
 
 </beans>

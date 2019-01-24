@@ -1,6 +1,6 @@
-package [path_1].[path_2].service;
+package [path_1].[path_2].service.[path_3];
 import [path_1].[path_2].entity.PageResult;
-import [path_1].[path_2].pojo.[Table2];
+import [path_1].[path_2].pojo.[path_3].[Table2];
 
 import java.util.*;
 

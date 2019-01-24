@@ -4,8 +4,8 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import [path_1].[path_2].dao.[Table2]Mapper;
 import [path_1].[path_2].entity.PageResult;
-import [path_1].[path_2].pojo.[Table2];
-import [path_1].[path_2].service.[Table2]Service;
+import [path_1].[path_2].pojo.[path_3].[Table2];
+import [path_1].[path_2].service.[path_3].[Table2]Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import tk.mybatis.mapper.entity.Example;
 
@@ -105,6 +105,7 @@ public class [Table2]ServiceImpl implements [Table2]Service {
         Example.Criteria criteria = example.createCriteria();
         if(searchMap!=null){
 <条件查询.String.txt>
+<条件查询.Integer.txt>
         }
         return example;
     }

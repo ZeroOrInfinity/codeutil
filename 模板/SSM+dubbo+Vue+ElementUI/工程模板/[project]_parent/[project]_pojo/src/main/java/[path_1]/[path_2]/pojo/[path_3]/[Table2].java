@@ -1,4 +1,4 @@
-package [path_1].[path_2].pojo;
+package [path_1].[path_2].pojo.[path_3];
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;

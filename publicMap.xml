@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root>
-  <map key="path_3" value="content"/>
-  <map key="package" value="com.leyou.content"/>
-  <map key="path_2" value="leyou"/>
+  <map key="path_3" value="goods"/>
+  <map key="package" value="com.qingcheng.goods"/>
+  <map key="path_2" value="qingcheng"/>
   <map key="dbpassword" value="123456"/>
   <map key="author" value="\u5218\u7687\u53d4"/>
-  <map key="projectComment" value="\u4e50\u4f18"/>
-  <map key="project" value="leyou"/>
+  <map key="projectComment" value="\u9752\u6a59"/>
+  <map key="project" value="qingcheng"/>
   <map key="dbuser" value="root"/>
   <map key="path_1" value="com"/>
-  <map key="db" value="leyoudb"/>
-  <map key="path_all" value="com/leyou/content"/>
+  <map key="db" value="qingcheng_goods"/>
+  <map key="path_all" value="com/qingcheng/goods"/>
 </root>

@@ -10,7 +10,7 @@
 	<!--指定暴露服务的端口，如果不指定默认为20880-->
 	<dubbo:protocol name="dubbo" port="${dubbo.port}"/>
 	<dubbo:application name="${dubbo.application}" />
-	<dubbo:registry protocol="zookeeper" address="${dubbo.address}" />
+	<dubbo:registry protocol="zookeeper" address="${zk.address}" />
 	<dubbo:annotation package="[path_1].[path_2].service" />
 	<!--<context:annotation-config/>-->
 </beans>
