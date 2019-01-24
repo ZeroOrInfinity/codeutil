@@ -14,9 +14,9 @@ import entity.Column;
 import entity.Table;
 
 /**
- * 传智架构师  V2.5
+ * 黑马架构师  V2.5
  * 
- * @author 传智播客研究院 刘皇叔
+ * @author 传智播客研究院 黑马刘皇叔
  *
  */
 public class Util {
@@ -175,7 +175,6 @@ public class Util {
 				{
 					keyname=keyname.toLowerCase();//转换为小写
 				}
-				
 				keys.add(keyname);
 			}
 			System.out.println("信息："+catalog+"   "+schema+"   "+tableName);

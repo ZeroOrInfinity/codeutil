@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<db name="changgou_user" driverName="com.mysql.jdbc.Driver" userName="root" passWord="123456" url="jdbc:mysql://127.0.0.1:3306/changgou_user?characterEncoding=UTF8">
+  <property name="databaseTYPE">MYSQL</property>
+  <property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+  <property name="generator">&lt;![CDATA[&lt;generator class="native"&gt;&lt;/generator&gt;]]&gt;</property>
+  <property name="driverName">com.mysql.jdbc.Driver</property>
+  <property name="url">jdbc:mysql://127.0.0.1:3306/changgou_user?characterEncoding=UTF8</property>
+  <table name="tb_address" name2="address" comment="" key="id" key2="id" Key2="Id" keyType="BIGINT">
+    <column name="id" name2="id" type="BIGINT" dbtype="BIGINT" comment="" key="PRI" decimal_digits="0" colums_size="19"/>
+    <column name="username" name2="username" type="VARCHAR" dbtype="VARCHAR" comment="\u7528\u6237" key="" decimal_digits="0" colums_size="50"/>
+    <column name="province_id" name2="provinceId" type="VARCHAR" dbtype="VARCHAR" comment="\u7701" key="" decimal_digits="0" colums_size="10"/>
+    <column name="city_id" name2="cityId" type="VARCHAR" dbtype="VARCHAR" comment="\u5e02" key="" decimal_digits="0" colums_size="10"/>
+    <column name="town_id" name2="townId" type="VARCHAR" dbtype="VARCHAR" comment="\u53bf/\u533a" key="" decimal_digits="0" colums_size="10"/>
+    <column name="mobile" name2="mobile" type="VARCHAR" dbtype="VARCHAR" comment="\u624b\u673a" key="" decimal_digits="0" colums_size="255"/>
+    <column name="address" name2="address" type="VARCHAR" dbtype="VARCHAR" comment="\u8be6\u7ec6\u5730\u5740" key="" decimal_digits="0" colums_size="255"/>
+    <column name="contact" name2="contact" type="VARCHAR" dbtype="VARCHAR" comment="\u8054\u7cfb\u4eba" key="" decimal_digits="0" colums_size="255"/>
+    <column name="is_default" name2="isDefault" type="VARCHAR" dbtype="VARCHAR" comment="\u662f\u5426\u662f\u9ed8\u8ba4 1\u9ed8\u8ba4 0\u5426" key="" decimal_digits="0" colums_size="1"/>
+    <column name="notes" name2="notes" type="VARCHAR" dbtype="VARCHAR" comment="\u5907\u6ce8" key="" decimal_digits="0" colums_size="255"/>
+    <column name="create_date" name2="createDate" type="DATETIME" dbtype="DATETIME" comment="\u521b\u5efa\u65e5\u671f" key="" decimal_digits="0" colums_size="19"/>
+    <column name="alias" name2="alias" type="VARCHAR" dbtype="VARCHAR" comment="\u522b\u540d" key="" decimal_digits="0" colums_size="50"/>
+  </table>
+  <table name="tb_admin" name2="admin" comment="" key="id" key2="id" Key2="Id" keyType="BIGINT">
+    <column name="id" name2="id" type="BIGINT" dbtype="BIGINT" comment="" key="PRI" decimal_digits="0" colums_size="19"/>
+    <column name="username" name2="username" type="VARCHAR" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="20"/>
+    <column name="password" name2="password" type="VARCHAR" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="60"/>
+  </table>
+  <table name="tb_seller" name2="seller" comment="" key="seller_id" key2="sellerId" Key2="SellerId" keyType="VARCHAR">
+    <column name="seller_id" name2="sellerId" type="VARCHAR" dbtype="VARCHAR" comment="\u7528\u6237ID" key="PRI" decimal_digits="0" colums_size="100"/>
+    <column name="name" name2="name" type="VARCHAR" dbtype="VARCHAR" comment="\u516c\u53f8\u540d" key="" decimal_digits="0" colums_size="80"/>
+    <column name="nick_name" name2="nickName" type="VARCHAR" dbtype="VARCHAR" comment="\u5e97\u94fa\u540d\u79f0" key="" decimal_digits="0" colums_size="50"/>
+    <column name="password" name2="password" type="VARCHAR" dbtype="VARCHAR" comment="\u5bc6\u7801" key="" decimal_digits="0" colums_size="60"/>
+    <column name="email" name2="email" type="VARCHAR" dbtype="VARCHAR" comment="EMAIL" key="" decimal_digits="0" colums_size="40"/>
+    <column name="mobile" name2="mobile" type="VARCHAR" dbtype="VARCHAR" comment="\u516c\u53f8\u624b\u673a" key="" decimal_digits="0" colums_size="11"/>
+    <column name="telephone" name2="telephone" type="VARCHAR" dbtype="VARCHAR" comment="\u516c\u53f8\u7535\u8bdd" key="" decimal_digits="0" colums_size="50"/>
+    <column name="status" name2="status" type="VARCHAR" dbtype="VARCHAR" comment="\u72b6\u6001" key="" decimal_digits="0" colums_size="1"/>
+    <column name="address_detail" name2="addressDetail" type="VARCHAR" dbtype="VARCHAR" comment="\u8be6\u7ec6\u5730\u5740" key="" decimal_digits="0" colums_size="100"/>
+    <column name="linkman_name" name2="linkmanName" type="VARCHAR" dbtype="VARCHAR" comment="\u8054\u7cfb\u4eba\u59d3\u540d" key="" decimal_digits="0" colums_size="50"/>
+    <column name="linkman_qq" name2="linkmanQq" type="VARCHAR" dbtype="VARCHAR" comment="\u8054\u7cfb\u4ebaQQ" key="" decimal_digits="0" colums_size="13"/>
+    <column name="linkman_mobile" name2="linkmanMobile" type="VARCHAR" dbtype="VARCHAR" comment="\u8054\u7cfb\u4eba\u7535\u8bdd" key="" decimal_digits="0" colums_size="11"/>
+    <column name="linkman_email" name2="linkmanEmail" type="VARCHAR" dbtype="VARCHAR" comment="\u8054\u7cfb\u4ebaEMAIL" key="" decimal_digits="0" colums_size="40"/>
+    <column name="license_number" name2="licenseNumber" type="VARCHAR" dbtype="VARCHAR" comment="\u8425\u4e1a\u6267\u7167\u53f7" key="" decimal_digits="0" colums_size="20"/>
+    <column name="tax_number" name2="taxNumber" type="VARCHAR" dbtype="VARCHAR" comment="\u7a0e\u52a1\u767b\u8bb0\u8bc1\u53f7" key="" decimal_digits="0" colums_size="20"/>
+    <column name="org_number" name2="orgNumber" type="VARCHAR" dbtype="VARCHAR" comment="\u7ec4\u7ec7\u673a\u6784\u4ee3\u7801" key="" decimal_digits="0" colums_size="20"/>
+    <column name="address" name2="address" type="BIGINT" dbtype="BIGINT" comment="\u516c\u53f8\u5730\u5740" key="" decimal_digits="0" colums_size="19"/>
+    <column name="logo_pic" name2="logoPic" type="VARCHAR" dbtype="VARCHAR" comment="\u516c\u53f8LOGO\u56fe" key="" decimal_digits="0" colums_size="100"/>
+    <column name="brief" name2="brief" type="VARCHAR" dbtype="VARCHAR" comment="\u7b80\u4ecb" key="" decimal_digits="0" colums_size="2000"/>
+    <column name="create_time" name2="createTime" type="DATETIME" dbtype="DATETIME" comment="\u521b\u5efa\u65e5\u671f" key="" decimal_digits="0" colums_size="19"/>
+    <column name="legal_person" name2="legalPerson" type="VARCHAR" dbtype="VARCHAR" comment="\u6cd5\u5b9a\u4ee3\u8868\u4eba" key="" decimal_digits="0" colums_size="40"/>
+    <column name="legal_person_card_id" name2="legalPersonCardId" type="VARCHAR" dbtype="VARCHAR" comment="\u6cd5\u5b9a\u4ee3\u8868\u4eba\u8eab\u4efd\u8bc1" key="" decimal_digits="0" colums_size="25"/>
+    <column name="bank_user" name2="bankUser" type="VARCHAR" dbtype="VARCHAR" comment="\u5f00\u6237\u884c\u8d26\u53f7\u540d\u79f0" key="" decimal_digits="0" colums_size="50"/>
+    <column name="bank_name" name2="bankName" type="VARCHAR" dbtype="VARCHAR" comment="\u5f00\u6237\u884c" key="" decimal_digits="0" colums_size="100"/>
+  </table>
+  <table name="tb_user" name2="user" comment="" key="id" key2="id" Key2="Id" keyType="BIGINT">
+    <column name="id" name2="id" type="BIGINT" dbtype="BIGINT" comment="" key="PRI" decimal_digits="0" colums_size="19"/>
+    <column name="username" name2="username" type="VARCHAR" dbtype="VARCHAR" comment="\u7528\u6237\u540d" key="" decimal_digits="0" colums_size="50"/>
+    <column name="password" name2="password" type="VARCHAR" dbtype="VARCHAR" comment="\u5bc6\u7801\uff0c\u52a0\u5bc6\u5b58\u50a8" key="" decimal_digits="0" colums_size="32"/>
+    <column name="phone" name2="phone" type="VARCHAR" dbtype="VARCHAR" comment="\u6ce8\u518c\u624b\u673a\u53f7" key="" decimal_digits="0" colums_size="20"/>
+    <column name="email" name2="email" type="VARCHAR" dbtype="VARCHAR" comment="\u6ce8\u518c\u90ae\u7bb1" key="" decimal_digits="0" colums_size="50"/>
+    <column name="created" name2="created" type="DATETIME" dbtype="DATETIME" comment="\u521b\u5efa\u65f6\u95f4" key="" decimal_digits="0" colums_size="19"/>
+    <column name="updated" name2="updated" type="DATETIME" dbtype="DATETIME" comment="" key="" decimal_digits="0" colums_size="19"/>
+    <column name="source_type" name2="sourceType" type="VARCHAR" dbtype="VARCHAR" comment="\u4f1a\u5458\u6765\u6e90\uff1a1:PC\uff0c2\uff1aH5\uff0c3\uff1aAndroid\uff0c4\uff1aIOS\uff0c5\uff1aWeChat" key="" decimal_digits="0" colums_size="1"/>
+    <column name="nick_name" name2="nickName" type="VARCHAR" dbtype="VARCHAR" comment="\u6635\u79f0" key="" decimal_digits="0" colums_size="50"/>
+    <column name="name" name2="name" type="VARCHAR" dbtype="VARCHAR" comment="\u771f\u5b9e\u59d3\u540d" key="" decimal_digits="0" colums_size="50"/>
+    <column name="status" name2="status" type="VARCHAR" dbtype="VARCHAR" comment="\u4f7f\u7528\u72b6\u6001\uff08Y\u6b63\u5e38 N\u975e\u6b63\u5e38\uff09" key="" decimal_digits="0" colums_size="1"/>
+    <column name="head_pic" name2="headPic" type="VARCHAR" dbtype="VARCHAR" comment="\u5934\u50cf\u5730\u5740" key="" decimal_digits="0" colums_size="150"/>
+    <column name="qq" name2="qq" type="VARCHAR" dbtype="VARCHAR" comment="QQ\u53f7\u7801" key="" decimal_digits="0" colums_size="20"/>
+    <column name="account_balance" name2="accountBalance" type="DECIMAL" dbtype="DECIMAL" comment="\u8d26\u6237\u4f59\u989d" key="" decimal_digits="0" colums_size="10"/>
+    <column name="is_mobile_check" name2="isMobileCheck" type="VARCHAR" dbtype="VARCHAR" comment="\u624b\u673a\u662f\u5426\u9a8c\u8bc1 \uff080\u5426  1\u662f\uff09" key="" decimal_digits="0" colums_size="1"/>
+    <column name="is_email_check" name2="isEmailCheck" type="VARCHAR" dbtype="VARCHAR" comment="\u90ae\u7bb1\u662f\u5426\u68c0\u6d4b\uff080\u5426  1\u662f\uff09" key="" decimal_digits="0" colums_size="1"/>
+    <column name="sex" name2="sex" type="VARCHAR" dbtype="VARCHAR" comment="\u6027\u522b\uff0c1\u7537\uff0c2\u5973" key="" decimal_digits="0" colums_size="1"/>
+    <column name="user_level" name2="userLevel" type="INT" dbtype="INT" comment="\u4f1a\u5458\u7b49\u7ea7" key="" decimal_digits="0" colums_size="10"/>
+    <column name="points" name2="points" type="INT" dbtype="INT" comment="\u79ef\u5206" key="" decimal_digits="0" colums_size="10"/>
+    <column name="experience_value" name2="experienceValue" type="INT" dbtype="INT" comment="\u7ecf\u9a8c\u503c" key="" decimal_digits="0" colums_size="10"/>
+    <column name="birthday" name2="birthday" type="DATETIME" dbtype="DATETIME" comment="\u751f\u65e5" key="" decimal_digits="0" colums_size="19"/>
+    <column name="last_login_time" name2="lastLoginTime" type="DATETIME" dbtype="DATETIME" comment="\u6700\u540e\u767b\u5f55\u65f6\u95f4" key="" decimal_digits="0" colums_size="19"/>
+  </table>
+</db>

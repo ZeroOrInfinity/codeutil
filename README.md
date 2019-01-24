@@ -1,37 +1,21 @@
-# codeutil
+# 黑马架构师v2.5 （codeUtil）
 
 #### 项目介绍
-黑马程序员代码生成器。基于模板开发，支持SSM 、Spring全家桶、Vue等工程的创建。
-
-#### 软件架构
-软件架构说明
+​	《黑马架构师》一款由传智播客教育集团研究院开发的基于自主研发的模板引擎的“代码生成神器”。即便是一个工程几百个表，也可以瞬间完成基础代码的构建！用户只需建立数据库表结构，简单的几步操作就可以快速生成可以运行的一整套代码，可以极大地缩短开发周期，降低人力成本。《黑马架构师》内置了当前java和前端主流的架构模板，如SSM+dubbo  、springBooot+springCloud+springData 、前后端分离的vue+elementUI 模板、swagger API模板、数据库文档模板等。 用户通过自己开发模板也可以实现生成php、python、C# 、c++、数据库存储过程等其它编程语言的代码。
 
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 安装jdk1.8 并配置环境变量
+2. 双击codeutil-2.5.jar 或start.bat运行程序
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 建立数据库表，并设置字段的中文备注（中文备注用于作为生成表格的标题）
+2. 双击codeutil-2.5.jar 或start.bat运行程序，输入用户名和密码，点击测试连接，选择数据库表后点击“下一步”。
+3. 选择模板，输入基本信息，注意：包名一定要3级，例如 com.itheima.goods  前两级为模块名称，第三级为模块名称。
+4. 点击生成后，用IDE 打开代码后即可运行。
 
 #### 参与贡献
 
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+如果你觉得你设计的模板可以帮助更多的伙伴快速搭建工程，可以将你的模板打包发给我们，我们测试审核后会发布到此平台。
