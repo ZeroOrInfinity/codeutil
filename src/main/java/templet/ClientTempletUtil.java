@@ -149,6 +149,9 @@ public class ClientTempletUtil {
 						
 						newContent=newContent.replace("[type]", column.getColumnType());//java类型
 						newContent=newContent.replace("[dbtype]", column.getColumnDbType());//数据库类型
+						if(column.getColumnComment()==null || column.getColumnComment().equals("")){
+							column.setColumnComment(column.getColumnName());//设置为名称
+						}
 						newContent= newContent.replace("[columnComment]", column.getColumnComment());//备注
 						createContent.append(newContent);
 						System.out.println("替换后内容："+newContent);
@@ -162,8 +165,13 @@ public class ClientTempletUtil {
 		oldContent= oldContent.replace("[Table]", Utils.getClassName(table.getName()) );	
 		oldContent= oldContent.replace("[table2]", table.getName2());
 		oldContent= oldContent.replace("[Table2]", Utils.getClassName(table.getName2()) );
-		
+
+		if(table.getComment()==null || table.getComment().equals("")){
+			table.setComment(table.getName2());
+		}
 		oldContent= oldContent.replace("[comment]", table.getComment());//备注
+
+
 		if(table.getKey()!=null){
 			oldContent= oldContent.replace("[key]", table.getKey());// 主键
 		}
@@ -219,6 +227,9 @@ public class ClientTempletUtil {
 						}
 						if(table.getKey2Upper()!=null){
 							oldContent= oldContent.replace("[Key2]", table.getKey2Upper());//大写主键
+						}
+						if(table.getComment()==null || table.getComment().equals("")){
+							table.setComment(table.getName2());
 						}
 						newContent= newContent.replace("[comment]", table.getComment());//备注
 						createContent.append(newContent);

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="codeutil:jar">
+    <output-path>$PROJECT_DIR$/dist/codeutil_jar</output-path>
+    <root id="archive" name="codeutil.jar">
+      <element id="module-output" name="codeutil" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root>
-  <map key="path_3" value="goods"/>
-  <map key="package" value="com.qingcheng.goods"/>
-  <map key="path_2" value="qingcheng"/>
+  <map key="path_3" value="base"/>
+  <map key="package" value="com.health.base"/>
+  <map key="path_2" value="health"/>
   <map key="dbpassword" value="123456"/>
-  <map key="author" value="\u5218\u7687\u53d4"/>
-  <map key="projectComment" value="\u9752\u6a59"/>
-  <map key="project" value="qingcheng"/>
+  <map key="author" value=""/>
+  <map key="projectComment" value=" \u4f20\u667a\u5065\u5eb7"/>
+  <map key="project" value="jiankang"/>
   <map key="dbuser" value="root"/>
   <map key="path_1" value="com"/>
-  <map key="db" value="qingcheng_goods"/>
-  <map key="path_all" value="com/qingcheng/goods"/>
+  <map key="db" value="health"/>
+  <map key="path_all" value="com/health/base"/>
 </root>

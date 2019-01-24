@@ -2,19 +2,151 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b2887b-878c-47ab-8e1c-c2110a07476d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/条件查询.Integer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/JSON.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/字段信息.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/dist/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/dist/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/dist/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/dist/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax/jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax/parseJSON.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax/parseXML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax/var/location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax/var/nonce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax/var/rquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/ajax/xhr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/attributes/attr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/attributes/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/attributes/prop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/attributes/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/attributes/val.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/callbacks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/DOMEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/access.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/nodeName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/parseHTML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/ready-no-deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/ready.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/readyException.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/stripAndCollapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/core/var/rsingleTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/addGetHookIf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/adjustCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/curCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/defaultDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/showHide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/var/cssExpand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/var/getStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/var/isHidden.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/var/rmargin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/var/swap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/data/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/data/var/acceptData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/data/var/dataPriv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/data/var/dataUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/deferred/exceptionHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/deprecated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/dimensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/effects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/effects/Tween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/effects/animatedSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/event/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/event/alias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/event/focusin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/event/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/event/trigger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/exports/amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/exports/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/intro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation/buildFragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation/getAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/manipulation/wrapMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/outro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/queue/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/selector-native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/selector-sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/serialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/traversing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/traversing/findFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/traversing/var/dir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/traversing/var/siblings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/arr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/class2type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/documentElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/fnToString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/getProto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/hasOwn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/indexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/pnum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/rcssNum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/rnotwhite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/var/toString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/wrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/数据库文档/数据库文档[table].md(TFILE)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/数据库文档/列级模板/JSON.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板/数据库文档/表级模板/表信息.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publicMap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/publicMap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/条件查询.String.txt" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/条件查询.String.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_common/src/main/resources/dubbo-address.properties" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_common/src/main/resources/zk.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_common_service/src/main/resources/applicationContext-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_common_service/src/main/resources/applicationContext-dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_common_web/src/main/resources/applicationContext-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_common_web/src/main/resources/applicationContext-dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_interface/src/main/java/[path_1]/[path_2]/service/[Table2]Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_pojo/src/main/java/[path_1]/[path_2]/pojo/[Table2].java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_service_[path_3]/src/main/java/[path_1]/[path_2]/dao/[Table2]Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_service_[path_3]/src/main/java/[path_1]/[path_2]/dao/[Table2]Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_service_[path_3]/src/main/java/[path_1]/[path_2]/service/impl/[Table2]ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_service_[path_3]/src/main/java/[path_1]/[path_2]/service/impl/[Table2]ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/java/[path_1]/[path_2]/controller/[path_3]/[Table2]Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/java/[path_1]/[path_2]/controller/[path_3]/[Table2]Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/templet/ClientTempletUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/templet/ClientTempletUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/实体类私有属性.nokey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/实体类私有属性.nokey.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/页面查询表单.nokey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/页面查询表单.nokey.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/[path_3]/[table2].html" beforeDir="false" afterPath="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/[path_3]/[table2].html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,46 +159,52 @@
     <session id="1741561360">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="6" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="8" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
-          <entry key="java" value="92" />
+          <entry key="css" value="1" />
+          <entry key="html" value="4" />
+          <entry key="java" value="102" />
+          <entry key="js" value="1" />
+          <entry key="md(TFILE)" value="4" />
           <entry key="properties" value="8" />
           <entry key="properties(TFILE)" value="2" />
-          <entry key="txt" value="31" />
+          <entry key="txt" value="44" />
           <entry key="xml" value="23" />
           <entry key="yml(TFILE)" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="92" />
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="102" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="52" />
           <entry key="Properties" value="8" />
           <entry key="XML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="42" />
-          <entry key="java" value="639" />
+          <entry key="html" value="136" />
+          <entry key="java" value="697" />
+          <entry key="md(TFILE)" value="30" />
           <entry key="properties" value="3" />
           <entry key="properties(TFILE)" value="13" />
-          <entry key="txt" value="30" />
+          <entry key="txt" value="56" />
           <entry key="xml" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="42" />
-          <entry key="JAVA" value="639" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="HTML" value="136" />
+          <entry key="JAVA" value="697" />
+          <entry key="PLAIN_TEXT" value="99" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="47" />
         </counts>
@@ -82,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xml/XmlUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/templet/FileUtil.java" />
         <option value="$PROJECT_DIR$/模板/SpringBoot(2.0.4)+SpringCloud+SpringMVC+MyBatis/列级模板/实体类公有方法.txt" />
         <option value="$PROJECT_DIR$/模板/SpringBoot(2.0.4)+SpringCloud+SpringMVC+MyBatis/列级模板/实体类私有属性.key.txt" />
@@ -102,7 +239,6 @@
         <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_common_service/src/main/resources/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/templet/Utils.java" />
         <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/java/[path_1]/[path_2]/controller/[path_3]/[Table2]Controller.java" />
-        <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/[path_3]/[table2].html" />
         <option value="$PROJECT_DIR$/模板/SpringBoot(2.0.4)+SpringCloud+MyBatis/工程模板/[project]_parent/[project]_[path_3]/src/main/java/[path_1]/[path_2]/[path_3]/controller/[Table2]Controller.java" />
         <option value="$PROJECT_DIR$/模板/SpringBoot(2.0.4)+SpringCloud+MyBatis/工程模板/[project]_parent/[project]_[path_3]/src/main/java/[path_1]/[path_2]/[path_3]/service/[Table2]Service.java" />
         <option value="$PROJECT_DIR$/模板/SpringBoot2.0+SpringDataJPA/工程模板/[project]_parent/[project]_[path_3]/src/main/java/[path_1]/[path_2]/[path_3]/dao/[Table2]Dao.java" />
@@ -111,7 +247,6 @@
         <option value="$PROJECT_DIR$/src/main/java/database/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Table.java" />
         <option value="$PROJECT_DIR$/src/main/java/xml/DatabaseXml.java" />
-        <option value="$PROJECT_DIR$/src/main/java/templet/ClientTempletUtil.java" />
         <option value="$PROJECT_DIR$/模板/SpringBoot2.0+SpringCloud+MyBatis/工程模板/[project]_parent/[project]_[path_3]/src/main/java/[path_1]/[path_2]/[path_3]/service/[Table2]Service.java" />
         <option value="$PROJECT_DIR$/模板/SpringBoot2.0+SpringCloud+MyBatis/工程模板/[project]_parent/[project]_[path_3]/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -127,6 +262,15 @@
         <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_service_[path_3]/src/main/java/[path_1]/[path_2]/service/impl/[Table2]ServiceImpl.java" />
         <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/条件查询.String.txt" />
         <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/条件查询.Integer.txt" />
+        <option value="$PROJECT_DIR$/模板/数据库文档/表级模板/表信息.txt" />
+        <option value="$PROJECT_DIR$/模板/数据库文档/工程模板/数据库文档.md(TFILE)" />
+        <option value="$PROJECT_DIR$/模板/数据库文档/工程模板/数据库文档[table].md(TFILE)" />
+        <option value="$PROJECT_DIR$/模板/数据库文档/列级模板/JSON.txt" />
+        <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/页面查询表单.nokey.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/templet/ClientTempletUtil.java" />
+        <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/[path_3]/[table2].html" />
+        <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/实体类私有属性.nokey.txt" />
+        <option value="$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_pojo/src/main/java/[path_1]/[path_2]/pojo/[path_3]/[Table2].java" />
       </list>
     </option>
   </component>
@@ -150,7 +294,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="160" />
+    <option name="x" value="520" />
     <option name="y" value="40" />
     <option name="width" value="1390" />
     <option name="height" value="790" />
@@ -160,9 +304,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,55 +312,32 @@
               <item name="codeutil" type="b2602c69:ProjectViewProjectNode" />
               <item name="codeutil" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="codeutil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeutil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeutil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeutil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeutil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeutil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeutil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeutil" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="codeutil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeutil" type="462c0819:PsiDirectoryNode" />
-              <item name="过时模板" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548063100516" />
-    <property name="last_opened_file_path" value="D:/testcode/leyou_parent/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548323931395" />
+    <property name="last_opened_file_path" value="D:/out/jiankang_parent/pom.xml" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\codeUtil\codeutil\模板\SSM+dubbo+Vue+ElementUI\列级模板" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\codeUtil\codeutil\过时模板" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codeUtil\codeutil\模板\SSM+dubbo+Vue+ElementUI\列级模板" />
+      <recent name="D:\codeUtil\codeutil\模板\SSM+dubbo+Vue+ElementUI\工程模板\数据库文档" />
+      <recent name="D:\codeUtil\codeutil\模板\SSM+dubbo+Vue+ElementUI\工程模板\[project]_parent\[project]_web_manager\src\main\webapp" />
+      <recent name="D:\codeUtil\codeutil\模板\SSM+dubbo+Vue+ElementUI\工程模板\[project]_parent\[project]_web_manager\src\main\webapp\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,11 +388,13 @@
       <workItem from="1548040167150" duration="91000" />
       <workItem from="1548040998954" duration="87000" />
       <workItem from="1548056214828" duration="2156000" />
+      <workItem from="1548301335449" duration="4811000" />
+      <workItem from="1548318840201" duration="5083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18359000" />
+    <option name="totallyTimeSpent" value="28253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -283,7 +404,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.29624665" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2761394" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -291,7 +412,7 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.33427763" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.36260623" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -315,83 +436,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/java/[path_1]/[path_2]/controller/[path_3]/[Table2]Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/列表内容.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/实体类公有方法.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/实体类私有属性.key.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/实体类私有属性.nokey.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/页面编辑表单.nokey.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="89" lean-forward="true" selection-start-column="89" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/页面查询表单.nokey.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/db.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="45" column="80" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/templet/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="165" column="13" lean-forward="true" selection-start-line="165" selection-start-column="13" selection-end-line="165" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Column.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xml/XmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="91" column="12" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/[path_3]/[table2].html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="116" column="19" lean-forward="true" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SpringBoot2.0+SpringCloud+MyBatis/列级模板/实体类公有方法.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SpringBoot2.0+SpringCloud+MyBatis/列级模板/实体类私有属性.key.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SpringBoot2.0+SpringCloud+MyBatis/列级模板/实体类私有属性.nokey.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/模板/SpringBoot2.0+SpringCloud+MyBatis/列级模板/条件查询.String.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -434,13 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Unicode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="127" column="15" lean-forward="true" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -569,27 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/templet/Code.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/templet/TempletUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/templet/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -611,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/条件查询.String.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/条件查询.Integer.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -625,12 +634,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/templet/ClientTempletUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="93" column="48" lean-forward="true" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+        <state relative-caret-position="-250">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Unicode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1441">
+          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/数据库文档/表级模板/表信息.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templet/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="51" column="89" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templet/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templet/TempletUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/数据库文档/列级模板/字段信息.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/数据库文档/工程模板/数据库文档[table].md(TFILE)">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="129" column="3" lean-forward="true" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/数据库文档/列级模板/JSON.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/条件查询.String.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/页面查询表单.nokey.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/plugins/jquery/src/css/var/swap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/JSON.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/数据库文档/数据库文档[table].md(TFILE)">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/templet/ClientTempletUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_web_manager/src/main/webapp/[path_3]/[table2].html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/实体类私有属性.nokey.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/实体类私有属性.key.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/列级模板/字段信息.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板/SSM+dubbo+Vue+ElementUI/工程模板/[project]_parent/[project]_pojo/src/main/java/[path_1]/[path_2]/pojo/[path_3]/[Table2].java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>codeutil:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>codeutil</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: dom4j:dom4j:1.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
