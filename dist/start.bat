@@ -1,2 +1,2 @@
 @echo off
-java -jar codeutil-2.5.jar
+java -jar codeutil-2.5.1.jar
