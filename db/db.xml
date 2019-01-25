@@ -1,44 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<db name="health" driverName="com.mysql.jdbc.Driver" userName="root" passWord="123456" url="jdbc:mysql://127.0.0.1:3306/health?characterEncoding=UTF8">
+<db name="tensquare_article" driverName="com.mysql.jdbc.Driver" userName="root" passWord="123456" url="jdbc:mysql://127.0.0.1:3306/tensquare_article?characterEncoding=UTF8">
   <property name="databaseTYPE">MYSQL</property>
   <property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
   <property name="generator">&lt;![CDATA[&lt;generator class="native"&gt;&lt;/generator&gt;]]&gt;</property>
   <property name="driverName">com.mysql.jdbc.Driver</property>
-  <property name="url">jdbc:mysql://127.0.0.1:3306/health?characterEncoding=UTF8</property>
-  <table name="t_checkgroup" name2="checkgroup" comment="" key="id" key2="id" Key2="Id" keyType="Integer">
-    <column name="id" name2="id" type="Integer" dbtype="INT" comment="" key="PRI" decimal_digits="0" colums_size="10"/>
-    <column name="code" name2="code" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
-    <column name="name" name2="name" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
-    <column name="helpCode" name2="helpCode" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
-    <column name="sex" name2="sex" type="Integer" dbtype="INT" comment="" key="" decimal_digits="0" colums_size="10"/>
-    <column name="remark" name2="remark" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="128"/>
-    <column name="attention" name2="attention" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="128"/>
+  <property name="url">jdbc:mysql://127.0.0.1:3306/tensquare_article?characterEncoding=UTF8</property>
+  <table name="tb_article" name2="article" comment="" key="id" key2="id" Key2="Id" keyType="String">
+    <column name="id" name2="id" type="String" dbtype="VARCHAR" comment="ID" key="PRI" decimal_digits="0" colums_size="20"/>
+    <column name="columnid" name2="columnid" type="String" dbtype="VARCHAR" comment="\u4e13\u680fID" key="" decimal_digits="0" colums_size="20"/>
+    <column name="userid" name2="userid" type="String" dbtype="VARCHAR" comment="\u7528\u6237ID" key="" decimal_digits="0" colums_size="20"/>
+    <column name="title" name2="title" type="String" dbtype="VARCHAR" comment="\u6807\u9898" key="" decimal_digits="0" colums_size="100"/>
+    <column name="content" name2="content" type="String" dbtype="TEXT" comment="\u6587\u7ae0\u6b63\u6587" key="" decimal_digits="0" colums_size="65535"/>
+    <column name="image" name2="image" type="String" dbtype="VARCHAR" comment="\u6587\u7ae0\u5c01\u9762" key="" decimal_digits="0" colums_size="100"/>
+    <column name="createtime" name2="createtime" type="java.util.Date" dbtype="DATETIME" comment="\u53d1\u8868\u65e5\u671f" key="" decimal_digits="0" colums_size="19"/>
+    <column name="updatetime" name2="updatetime" type="java.util.Date" dbtype="DATETIME" comment="\u4fee\u6539\u65e5\u671f" key="" decimal_digits="0" colums_size="19"/>
+    <column name="ispublic" name2="ispublic" type="String" dbtype="VARCHAR" comment="\u662f\u5426\u516c\u5f00" key="" decimal_digits="0" colums_size="1"/>
+    <column name="istop" name2="istop" type="String" dbtype="VARCHAR" comment="\u662f\u5426\u7f6e\u9876" key="" decimal_digits="0" colums_size="1"/>
+    <column name="visits" name2="visits" type="Integer" dbtype="INT" comment="\u6d4f\u89c8\u91cf" key="" decimal_digits="0" colums_size="10"/>
+    <column name="thumbup" name2="thumbup" type="Integer" dbtype="INT" comment="\u70b9\u8d5e\u6570" key="" decimal_digits="0" colums_size="10"/>
+    <column name="comment" name2="comment" type="Integer" dbtype="INT" comment="\u8bc4\u8bba\u6570" key="" decimal_digits="0" colums_size="10"/>
+    <column name="state" name2="state" type="String" dbtype="VARCHAR" comment="\u5ba1\u6838\u72b6\u6001" key="" decimal_digits="0" colums_size="1"/>
+    <column name="channelid" name2="channelid" type="String" dbtype="VARCHAR" comment="\u6240\u5c5e\u9891\u9053" key="" decimal_digits="0" colums_size="20"/>
+    <column name="url" name2="url" type="String" dbtype="VARCHAR" comment="URL" key="" decimal_digits="0" colums_size="100"/>
+    <column name="type" name2="type" type="String" dbtype="VARCHAR" comment="\u7c7b\u578b" key="" decimal_digits="0" colums_size="1"/>
   </table>
-  <table name="t_checkitem" name2="checkitem" comment="" key="id" key2="id" Key2="Id" keyType="Integer">
-    <column name="id" name2="id" type="Integer" dbtype="INT" comment="" key="PRI" decimal_digits="0" colums_size="10"/>
-    <column name="code" name2="code" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="16"/>
-    <column name="name" name2="name" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
-    <column name="sex" name2="sex" type="Integer" dbtype="INT" comment="" key="" decimal_digits="0" colums_size="10"/>
-    <column name="age" name2="age" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
-    <column name="remark" name2="remark" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="128"/>
-    <column name="attention" name2="attention" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="128"/>
+  <table name="tb_channel" name2="channel" comment="" key="id" key2="id" Key2="Id" keyType="String">
+    <column name="id" name2="id" type="String" dbtype="VARCHAR" comment="ID" key="PRI" decimal_digits="0" colums_size="20"/>
+    <column name="name" name2="name" type="String" dbtype="VARCHAR" comment="\u9891\u9053\u540d\u79f0" key="" decimal_digits="0" colums_size="100"/>
+    <column name="state" name2="state" type="String" dbtype="VARCHAR" comment="\u72b6\u6001" key="" decimal_digits="0" colums_size="1"/>
   </table>
-  <table name="t_member" name2="member" comment="" key="id" key2="id" Key2="Id" keyType="Integer">
-    <column name="id" name2="id" type="Integer" dbtype="INT" comment="" key="PRI" decimal_digits="0" colums_size="10"/>
-    <column name="fileNumber" name2="fileNumber" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
-    <column name="name" name2="name" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
-    <column name="sex" name2="sex" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="8"/>
-    <column name="idCard" name2="idCard" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="18"/>
-    <column name="phoneNumber" name2="phoneNumber" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="11"/>
-    <column name="regtime" name2="regtime" type="java.util.Date" dbtype="DATETIME" comment="" key="" decimal_digits="0" colums_size="19"/>
-    <column name="password" name2="password" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
-    <column name="email" name2="email" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="32"/>
-    <column name="birthday" name2="birthday" type="java.util.Date" dbtype="DATE" comment="" key="" decimal_digits="0" colums_size="10"/>
-    <column name="remark" name2="remark" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="128"/>
-  </table>
-  <table name="t_user" name2="user" comment="" key="id" key2="id" Key2="Id" keyType="Integer">
-    <column name="id" name2="id" type="Integer" dbtype="INT" comment="" key="PRI" decimal_digits="0" colums_size="10"/>
-    <column name="name" name2="name" type="String" dbtype="VARCHAR" comment="" key="" decimal_digits="0" colums_size="128"/>
+  <table name="tb_column" name2="column" comment="" key="id" key2="id" Key2="Id" keyType="String">
+    <column name="id" name2="id" type="String" dbtype="VARCHAR" comment="ID" key="PRI" decimal_digits="0" colums_size="20"/>
+    <column name="name" name2="name" type="String" dbtype="VARCHAR" comment="\u4e13\u680f\u540d\u79f0" key="" decimal_digits="0" colums_size="100"/>
+    <column name="summary" name2="summary" type="String" dbtype="VARCHAR" comment="\u4e13\u680f\u7b80\u4ecb" key="" decimal_digits="0" colums_size="1000"/>
+    <column name="userid" name2="userid" type="String" dbtype="VARCHAR" comment="\u7528\u6237ID" key="" decimal_digits="0" colums_size="20"/>
+    <column name="createtime" name2="createtime" type="java.util.Date" dbtype="DATETIME" comment="\u7533\u8bf7\u65e5\u671f" key="" decimal_digits="0" colums_size="19"/>
+    <column name="checktime" name2="checktime" type="java.util.Date" dbtype="DATETIME" comment="\u5ba1\u6838\u65e5\u671f" key="" decimal_digits="0" colums_size="19"/>
+    <column name="state" name2="state" type="String" dbtype="VARCHAR" comment="\u72b6\u6001" key="" decimal_digits="0" colums_size="1"/>
   </table>
 </db>
