@@ -1,2 +1,0 @@
-    	<!-- [comment] -->
-		<action name="[table]_*" class="[table]Action" method="{1}"></action>

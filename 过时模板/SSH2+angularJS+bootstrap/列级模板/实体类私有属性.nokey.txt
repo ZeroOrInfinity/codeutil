@@ -1,3 +1,0 @@
-	@Column(name="[column]")
-	private [type] [column];//[columnComment]
-

@@ -1,1 +1,0 @@
-		<td>{{info.[column]}}</td>

@@ -1,4 +1,0 @@
-	<!-- [comment] -->
-	<bean id="[table]Action" class="[package].action.[Table]Action" scope="prototype">
-		<property name="[table]Biz" ref="[table]Biz"></property>
-	</bean>
