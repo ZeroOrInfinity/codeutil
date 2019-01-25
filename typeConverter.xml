@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <converter>
-	<!-- MYSQL -->
+	<!-- MYSQL数据库 -->
 	<type key="VARCHAR" value="String"></type>
 	<type key="BIGINT" value="Long"></type>
 	<type key="INT" value="Integer"></type>	

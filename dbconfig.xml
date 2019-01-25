@@ -19,5 +19,7 @@
 					<param name="sequence">[table]_seq</param>
 				</generator>]]>
 		</property>
+		
 	</db>
+	<!--支持扩展 -->
 </dblist>
