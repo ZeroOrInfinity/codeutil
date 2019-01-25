@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
 import database.Util;
 
 /**
- * 黑马架构师  V2.5
+ * 黑马架构师  V2.5.1
  *
  * @author 传智播客研究院 刘皇叔
  *
