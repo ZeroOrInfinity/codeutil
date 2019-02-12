@@ -21,44 +21,51 @@ public class [Table2]Controller {
     @Autowired
     private [Table2]Service [table2]Service;
 
-    @RequestMapping
+    @GetMapping
     public Result findAll(){
         List<[Table2]> [table2]List = [table2]Service.findAll();
         return new Result(true, StatusCode.OK,"查询成功",[table2]List) ;
     }
 
-    @RequestMapping("/{[key2]}")
+    @GetMapping("/{[key2]}")
     public Result findById(@PathVariable [keyType] [key2]){
         [Table2] [table2] = [table2]Service.findById([key2]);
         return new Result(true,StatusCode.OK,"查询成功",[table2]);
     }
 
-    @RequestMapping(method = RequestMethod.POST)
+    @PostMapping
     public Result add(@RequestBody [Table2] [table2]){
         [table2]Service.add([table2]);
         return new Result(true,StatusCode.OK,"添加成功");
     }
 
-    @RequestMapping(value="/{[key2]}", method = RequestMethod.PUT)
+    @PutMapping(value="/{[key2]}")
     public Result update(@RequestBody [Table2] [table2],@PathVariable [keyType] [key2]){
-        [table2].set[Key2]([key2]);
+        [table2].setId([key2]);
         [table2]Service.update([table2]);
         return new Result(true,StatusCode.OK,"修改成功");
     }
 
-    @RequestMapping(value = "/{[key2]}" ,method = RequestMethod.DELETE)
+    @DeleteMapping(value = "/{[key2]}" )
     public Result delete(@PathVariable [keyType] [key2]){
         [table2]Service.delete([key2]);
         return new Result(true,StatusCode.OK,"删除成功");
     }
 
-    @RequestMapping(value = "/search/{page}/{size}" ,method = RequestMethod.GET)
+    @GetMapping(value = "/search/{page}/{size}" )
     public Result findPage(@PathVariable  int page, @PathVariable  int size){
-        List<[Table2]> list = [table2]Service.findPage(page, size);
+        Page<[Table2]> pageList = [table2]Service.findPage(page, size);
+        PageResult pageResult=new PageResult(pageList.getTotal(),pageList.getResult());
+        return new Result(true,StatusCode.OK,"查询成功",pageResult);
+    }
+
+    @PostMapping(value = "/search" )
+    public Result findList(@RequestBody Map searchMap){
+        List<[Table2]> list = [table2]Service.findList(searchMap);
         return new Result(true,StatusCode.OK,"查询成功",list);
     }
 
-    @RequestMapping(value = "/search/{page}/{size}" ,method = RequestMethod.POST)
+    @PostMapping(value = "/search/{page}/{size}" )
     public Result findPage(@RequestBody Map searchMap, @PathVariable  int page, @PathVariable  int size){
         Page<[Table2]> pageList = [table2]Service.findPage(searchMap, page, size);
         PageResult pageResult=new PageResult(pageList.getTotal(),pageList.getResult());

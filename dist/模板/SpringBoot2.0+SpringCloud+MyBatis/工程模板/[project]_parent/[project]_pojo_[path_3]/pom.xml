@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>[project]_[path_3]_pojo</artifactId>
+    <artifactId>[project]_pojo_[path_3]</artifactId>
     <dependencies>
         <dependency>
             <groupId>javax.persistence</groupId>
