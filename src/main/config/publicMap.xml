@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <map key="db" value="sell"/>
+    <map key="author" value="zyw"/>
+    <map key="project" value="sell"/>
+    <map key="path_3" value="sell"/>
+    <map key="dbpassword" value=""/>
+    <map key="path_2" value="zyw"/>
+    <map key="projectComment" value="sell-wx"/>
+    <map key="package" value="cn.zyw.sell"/>
+    <map key="path_1" value="cn"/>
+    <map key="dbuser" value="root"/>
+    <map key="path_all" value="cn/zyw/sell"/>
+</root>
