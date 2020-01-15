@@ -7,13 +7,11 @@
 
 package ui;
 
+
+import javax.swing.*;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 
 /**
  * 黑马架构师  V2.5
@@ -68,14 +66,17 @@ public class CodeUtil extends javax.swing.JFrame {
 		//setTitle("\u4f20\u667a\u5218\u5907\u4ee3\u7801\u751f\u6210\u5668 V2.3");
 		setTitle("黑马架构师 2.5.1 ->人人都是架构师");
 		addWindowListener(new java.awt.event.WindowAdapter() {
+			@Override
 			public void windowActivated(java.awt.event.WindowEvent evt) {
 				formWindowActivated(evt);
 			}
 
+			@Override
 			public void windowOpened(java.awt.event.WindowEvent evt) {
 				formWindowOpened(evt);
 			}
 
+			@Override
 			public void windowClosing(java.awt.event.WindowEvent evt) {
 				formWindowClosing(evt);
 			}
@@ -97,6 +98,7 @@ public class CodeUtil extends javax.swing.JFrame {
 
 		jButton1.setText("\u751f\u6210\u4ee3\u7801");
 		jButton1.addActionListener(new java.awt.event.ActionListener() {
+			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				jButton1ActionPerformed(evt);
 			}
@@ -104,6 +106,7 @@ public class CodeUtil extends javax.swing.JFrame {
 
 		jButton2.setText("\u5173\u95ed");
 		jButton2.addActionListener(new java.awt.event.ActionListener() {
+			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				jButton2ActionPerformed(evt);
 			}
@@ -111,6 +114,7 @@ public class CodeUtil extends javax.swing.JFrame {
 
 		jButton6.setText("\u9009\u62e9");
 		jButton6.addActionListener(new java.awt.event.ActionListener() {
+			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				jButton6ActionPerformed(evt);
 			}
@@ -118,6 +122,7 @@ public class CodeUtil extends javax.swing.JFrame {
 
 		jButton7.setText("\u9009\u62e9");
 		jButton7.addActionListener(new java.awt.event.ActionListener() {
+			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				jButton7ActionPerformed(evt);
 			}
@@ -436,6 +441,7 @@ public class CodeUtil extends javax.swing.JFrame {
 		jButton1.setEnabled(false);
 		jButton1.setText("代码生成中...");
 		final Thread t=new Thread(new Runnable(){
+			  @Override
 			  public void run(){
 				  try{
 					//路径map封装
@@ -527,6 +533,7 @@ public class CodeUtil extends javax.swing.JFrame {
 	 */
 	public static void main(String args[]) {
 		java.awt.EventQueue.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				new CodeUtil().setVisible(true);
 			}

@@ -6,17 +6,13 @@
 
 package ui;
 
+import database.Util;
+
+import javax.swing.*;
 import java.io.File;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
-
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-
-
-import database.Util;
 
 /**
  * 黑马架构师  V2.5.1
@@ -57,14 +53,17 @@ public class DatabaseUtil extends javax.swing.JFrame {
 		setTitle("黑马架构师 2.5.1 --> 让你体验什么叫开挂");
 		setBackground(new java.awt.Color(204, 255, 204));
 		addWindowListener(new java.awt.event.WindowAdapter() {
+			@Override
 			public void windowClosed(java.awt.event.WindowEvent evt) {
 				formWindowClosed(evt);
 			}
 
+			@Override
 			public void windowOpened(java.awt.event.WindowEvent evt) {
 				formWindowOpened(evt);
 			}
 
+			@Override
 			public void windowClosing(java.awt.event.WindowEvent evt) {
 				formWindowClosing(evt);
 			}
@@ -86,6 +85,7 @@ public class DatabaseUtil extends javax.swing.JFrame {
 
 		jButton1.setText("\u6d4b\u8bd5\u8fde\u63a5");
 		jButton1.addActionListener(new java.awt.event.ActionListener() {
+			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				jButton1ActionPerformed(evt);
 			}
@@ -93,6 +93,7 @@ public class DatabaseUtil extends javax.swing.JFrame {
 
 		jButton2.setLabel("\u8df3\u8fc7");
 		jButton2.addActionListener(new java.awt.event.ActionListener() {
+			@Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {
 				jButton2ActionPerformed(evt);
 			}
@@ -310,6 +311,7 @@ public class DatabaseUtil extends javax.swing.JFrame {
 			propertyMap.put("url", url);
 			
 			final Thread t=new Thread(new Runnable(){
+				  @Override
 				  public void run(){
 					  try{
 						//获取当前文件夹下的模板目录下的所有文件夹
@@ -354,6 +356,7 @@ public class DatabaseUtil extends javax.swing.JFrame {
 		jButton1.setEnabled(false);
 		
 		final Thread t=new Thread(new Runnable(){
+			  @Override
 			  public void run(){
 				  try{
 				
@@ -412,6 +415,7 @@ public class DatabaseUtil extends javax.swing.JFrame {
 	 */
 	public static void main(String args[]) {
 		java.awt.EventQueue.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				new DatabaseUtil().setVisible(true);
 			}
