@@ -24,7 +24,7 @@
         <file>
             <source>target/codeutil-2.5.1-Release-jar-with-dependencies.jar</source>
             <outputDirectory>/</outputDirectory>
-            <destName>codeutil-2.5.1-Release.jar</destName>
+            <destName>codeutil-2.5.1.jar</destName>
         </file>
     </files>
 </assembly>

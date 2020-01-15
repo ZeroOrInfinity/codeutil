@@ -50,7 +50,7 @@ public class DatabaseUtil extends javax.swing.JFrame {
 		jLabel5 = new JLabel();
 
 		//setTitle("\u4f20\u667a\u5218\u5907\u4ee3\u7801\u751f\u6210\u56682.3");
-		setTitle("黑马架构师 2.5.1 --> 让你体验什么叫开挂");
+		setTitle("脚手架生成器 2.5.1 --> 让你体验什么叫开挂");
 		setBackground(new java.awt.Color(204, 255, 204));
 		addWindowListener(new java.awt.event.WindowAdapter() {
 			@Override
@@ -294,9 +294,9 @@ public class DatabaseUtil extends javax.swing.JFrame {
 			url=url.replace("[db]", db);
 			
 			
-			
-			
-			util.setDriverName(propertyMap.get("driverName"));				
+
+
+			util.setDriverName(propertyMap.get("driverName"));
 			util.setUrl(url);
 			util.setDbName(db);
 			util.setIp(this.jTextField3.getText());

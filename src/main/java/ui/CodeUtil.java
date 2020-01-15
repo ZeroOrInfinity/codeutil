@@ -64,7 +64,7 @@ public class CodeUtil extends javax.swing.JFrame {
 
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 		//setTitle("\u4f20\u667a\u5218\u5907\u4ee3\u7801\u751f\u6210\u5668 V2.3");
-		setTitle("黑马架构师 2.5.1 ->人人都是架构师");
+		setTitle("脚手架生成器 2.5.1 --> 让你体验什么叫开挂");
 		addWindowListener(new java.awt.event.WindowAdapter() {
 			@Override
 			public void windowActivated(java.awt.event.WindowEvent evt) {
