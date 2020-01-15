@@ -22,6 +22,11 @@
     </fileSets>
     <files>
         <file>
+            <source>模板制作教程2.5.1.md</source>
+            <outputDirectory>/</outputDirectory>
+            <destName>模板制作教程.md</destName>
+        </file>
+        <file>
             <source>target/codeutil-2.5.1-Release-jar-with-dependencies.jar</source>
             <outputDirectory>/</outputDirectory>
             <destName>codeutil-2.5.1.jar</destName>
